@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ascend — Search Fund</title>
+    <title>Ascend Group — Acquisition & Growth Partners</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700;1,9..144,300;1,9..144,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -78,6 +78,131 @@
         }
 
         .nav-links a:hover { color: var(--forest); }
+
+        /* ===== ABOUT ===== */
+        .about {
+            padding: 7rem 3rem;
+            background: var(--sand);
+        }
+
+        .about-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 380px 1fr;
+            gap: 4rem;
+            align-items: start;
+        }
+
+        .about-image-wrapper {
+            position: relative;
+        }
+
+        .about-image {
+            width: 100%;
+            aspect-ratio: 3/4;
+            border-radius: 12px;
+            background: linear-gradient(135deg, var(--sage-light), var(--sage));
+            position: relative;
+            overflow: hidden;
+        }
+
+        .about-image::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(26,58,42,0.1), rgba(122,158,135,0.2));
+        }
+
+        .about-accent {
+            position: absolute;
+            bottom: -15px;
+            right: -15px;
+            width: 120px;
+            height: 120px;
+            border-radius: 12px;
+            background: var(--terracotta);
+            opacity: 0.15;
+            z-index: -1;
+        }
+
+        .about-content h2 {
+            font-family: 'Fraunces', serif;
+            font-size: clamp(2rem, 4vw, 2.8rem);
+            color: var(--forest);
+            font-weight: 500;
+            line-height: 1.15;
+            letter-spacing: -0.02em;
+            margin-bottom: 1.5rem;
+        }
+
+        .about-role {
+            font-size: 0.85rem;
+            color: var(--terracotta);
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+        }
+
+        .about-content p {
+            font-size: 1rem;
+            line-height: 1.8;
+            color: var(--gray);
+            font-weight: 300;
+            margin-bottom: 1.5rem;
+        }
+
+        .about-highlights {
+            margin-top: 2.5rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(26,58,42,0.1);
+        }
+
+        .about-highlights h4 {
+            font-family: 'Fraunces', serif;
+            font-size: 1.1rem;
+            color: var(--forest);
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+
+        .highlight-list {
+            display: grid;
+            gap: 0.75rem;
+        }
+
+        .highlight-item {
+            display: flex;
+            align-items: start;
+            gap: 0.75rem;
+        }
+
+        .highlight-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--terracotta);
+            margin-top: 8px;
+            flex-shrink: 0;
+        }
+
+        .highlight-item p {
+            font-size: 0.95rem;
+            line-height: 1.7;
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .about-inner {
+                grid-template-columns: 1fr;
+                gap: 2.5rem;
+            }
+            .about-image-wrapper {
+                max-width: 320px;
+                margin: 0 auto;
+            }
+        }
 
         .nav-cta {
             background: var(--forest) !important;
@@ -568,20 +693,21 @@
 <body>
 
 <nav>
-    <div class="logo">ascend<span class="dot"></span></div>
+    <div class="logo">ascend group<span class="dot"></span></div>
     <div class="nav-links">
         <a href="#focus">Focus</a>
         <a href="#approach">Approach</a>
         <a href="#criteria">Criteria</a>
+        <a href="#about">About</a>
         <a href="#contact" class="nav-cta">Get in Touch</a>
     </div>
 </nav>
 
 <section class="hero">
     <div class="hero-content">
-        <div class="hero-badge">Search Fund — Acquisition & Growth</div>
+        <div class="hero-badge">Acquisition & Growth Partners</div>
         <h1>Acquiring great businesses. Building <span class="accent">lasting</span> platforms.</h1>
-        <p class="hero-desc">Ascend is a search fund acquiring and scaling essential service businesses. We bring institutional discipline and a hands-on ownership mentality to companies ready for their next chapter.</p>
+        <p class="hero-desc">Ascend Group acquires or partners to scale essential service businesses. We bring institutional discipline and a hands-on ownership mentality to companies ready for their next chapter.</p>
         <div class="hero-actions">
             <a href="#contact" class="btn-primary">
                 Start a Conversation
@@ -644,7 +770,7 @@
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" stroke="var(--cream)" stroke-width="1.5"/><path d="M8 12s1.5-4 4-4 4 4 4 4-1.5 4-4 4-4-4-4-4z" stroke="var(--cream)" stroke-width="1.5"/></svg>
                 </div>
                 <h3>Environmental & Grease Trap Services</h3>
-                <p>Regulated, recurring, and essential. Grease trap maintenance, FOG compliance, and environmental services benefit from tightening regulations and fragmented local competition — ideal for a platform strategy.</p>
+                <p>Grease trap cleaning and maintenance, septic pumping, portable restroom services, drain cleaning, hydro-jetting, oil recycling, industrial waste management, and environmental compliance services.</p>
                 <svg class="card-shape" width="180" height="180" viewBox="0 0 180 180"><polygon points="90,10 170,170 10,170" fill="white"/></svg>
             </div>
             <div class="focus-card garage reveal">
@@ -652,7 +778,7 @@
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 21V8l9-6 9 6v13" stroke="var(--cream)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 21V14h6v7" stroke="var(--cream)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </div>
                 <h3>Garage Door Services</h3>
-                <p>High-frequency residential and commercial demand with strong service margins. A fragmented landscape of owner-operators presents a compelling roll-up opportunity for a professionally managed platform.</p>
+                <p>Garage door installation and repair, automatic opener services, commercial door systems, loading dock equipment, overhead door maintenance, spring replacement, residential and commercial service contracts.</p>
                 <svg class="card-shape" width="180" height="180" viewBox="0 0 180 180"><circle cx="90" cy="90" r="80" fill="var(--forest)" opacity="0.5"/></svg>
             </div>
         </div>
@@ -675,7 +801,7 @@
         <div class="approach-card reveal">
             <div class="approach-num">01</div>
             <h3>Identify</h3>
-            <p>Source platform acquisitions through proprietary deal flow, broker relationships, and direct outreach to business owners considering succession.</p>
+            <p>Source platform acquisitions through proprietary deal flow, broker relationships, and direct outreach to business owners considering succession or looking for a partner to drive growth.</p>
         </div>
         <div class="approach-card reveal">
             <div class="approach-num">02</div>
@@ -697,8 +823,8 @@
         <div class="criteria-grid">
             <div class="criteria-item reveal">
                 <div class="criteria-dot"></div>
-                <h4>Revenue</h4>
-                <p>$1M – $10M in annual revenue with healthy, stable margins</p>
+                <h4>EBITDA</h4>
+                <p>$1M – $5M in annual EBITDA with healthy, stable margins</p>
             </div>
             <div class="criteria-item reveal">
                 <div class="criteria-dot"></div>
@@ -729,20 +855,64 @@
     </div>
 </section>
 
+<section class="about" id="about">
+    <div class="about-inner">
+        <div class="about-image-wrapper reveal">
+            <div class="about-image">
+                <!-- Placeholder for professional photo -->
+            </div>
+            <div class="about-accent"></div>
+        </div>
+        <div class="about-content">
+            <span class="section-label reveal">Searcher & Operator</span>
+            <h2 class="reveal">Faizan Kabir</h2>
+            <p class="about-role reveal">Founder & Principal</p>
+            
+            <p class="reveal">I'm acquiring and building an essential services business — bringing institutional rigor and entrepreneurial commitment to create lasting value.</p>
+            
+            <p class="reveal">My background spans private equity and corporate strategy, where I've led buyouts, built management teams, and transformed operational performance. At Equity Group Investments — Sam Zell's private investment firm — I've sourced and executed control investments, partnered with founders to drive growth, and stepped into interim operating roles to stabilize and scale businesses. I've seen firsthand how the right combination of operational discipline, customer focus, and strategic investment can transform solid businesses into industry leaders.</p>
+            
+            <p class="reveal">With Ascend Group, I'm backing that conviction with my own capital and full-time commitment. I'm not looking to flip — I'm building a company I'll run for the long haul, creating value for customers, employees, and the communities we serve.</p>
+            
+            <div class="about-highlights reveal">
+                <h4>Background</h4>
+                <div class="highlight-list">
+                    <div class="highlight-item">
+                        <div class="highlight-dot"></div>
+                        <p>Vice President at Equity Group Investments — Led and managed buyouts ranging from $100M to $200M across equipment, logistics, and industrial sectors</p>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-dot"></div>
+                        <p>Corporate Strategy at Bank of America — Evaluated M&A opportunities, strategic partnerships, and competitive positioning across payments and fintech</p>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-dot"></div>
+                        <p>Investment Banking at Bank of America Merrill Lynch — Financial technology M&A and capital markets advisory</p>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-dot"></div>
+                        <p>Indiana University, Kelley School of Business — B.S. in Finance with Distinction</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="contact" id="contact">
     <div class="contact-inner">
         <span class="section-label reveal">Get in Touch</span>
         <h2 class="section-heading reveal">Let's build something together.</h2>
         <p class="reveal">Whether you're a business owner considering your next step or an investor interested in our thesis, we'd welcome the conversation.</p>
-        <a href="mailto:hello@ascendsearchfund.com" class="contact-email reveal">
-            hello@ascendsearchfund.com
+        <a href="mailto:faizan@ascend-co.com" class="contact-email reveal">
+            faizan@ascend-co.com
             <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M5 13L13 5M13 5H6M13 5v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
     </div>
 </section>
 
 <footer>
-    <p>&copy; 2025 Ascend Search Fund. All rights reserved.</p>
+    <p>&copy; 2025 Ascend Group LLC. All rights reserved.</p>
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
         <polygon points="12,3 21,21 3,21" fill="none" stroke="var(--sage)" stroke-width="1.5"/>
     </svg>
