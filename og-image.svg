@@ -1,0 +1,20 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#faf7f2"/>
+  
+  <!-- Decorative shapes -->
+  <circle cx="-60" cy="-60" r="110" fill="#b8d4c2" opacity="0.2"/>
+  <path d="M 1200 630 L 1115 630 L 1200 545 Z" fill="#b8d4c2" opacity="0.2"/>
+  
+  <!-- Company name -->
+  <text x="600" y="280" font-family="serif" font-size="88" font-weight="700" fill="#1a3a2a" text-anchor="middle" letter-spacing="-1">ascend group</text>
+  
+  <!-- Dot -->
+  <circle cx="920" cy="268" r="11" fill="#c4644a"/>
+  
+  <!-- Tagline -->
+  <text x="600" y="340" font-family="Arial, sans-serif" font-size="26" font-weight="600" fill="#c4644a" text-anchor="middle" letter-spacing="2">GROWTH MINDED PARTNERS</text>
+  
+  <!-- Description -->
+  <text x="600" y="405" font-family="Arial, sans-serif" font-size="22" font-weight="300" fill="#7a9e87" text-anchor="middle">Acquiring and scaling essential service businesses</text>
+</svg>
