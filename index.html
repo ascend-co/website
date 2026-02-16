@@ -425,6 +425,11 @@
             border: 1px solid rgba(26,58,42,0.08);
         }
 
+        .focus-card.other {
+            background: linear-gradient(135deg, var(--sage), var(--sage-light));
+            color: var(--cream);
+        }
+        
         .focus-card-icon {
             width: 48px; height: 48px;
             border-radius: 12px;
@@ -436,7 +441,8 @@
 
         .env .focus-card-icon { background: rgba(255,255,255,0.15); }
         .garage .focus-card-icon { background: var(--forest); }
-
+        .other .focus-card-icon { background: rgba(255,255,255,0.15); }
+        
         .focus-card h3 {
             font-family: 'Fraunces', serif;
             font-size: 1.4rem;
@@ -795,6 +801,14 @@
                 <h3>Commercial Overhead Door Services</h3>
                 <p>Garage door installation and repair, automatic opener services, commercial door systems, loading dock equipment, overhead door maintenance, spring replacement, residential and commercial service contracts.</p>
                 <svg class="card-shape" width="180" height="180" viewBox="0 0 180 180"><circle cx="90" cy="90" r="80" fill="var(--forest)" opacity="0.5"/></svg>
+            </div>
+            <div class="focus-card other reveal">
+                <div class="focus-card-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2L2 7l10 5 10-5-10-5z" stroke="var(--cream)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M2 17l10 5 10-5" stroke="var(--cream)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M2 12l10 5 10-5" stroke="var(--cream)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+                <h3>Other Essential Services</h3>
+                <p>Pool maintenance and cleaning, HVAC and plumbing services, lawn care and landscaping, pest control, facility maintenance, janitorial services, and other recurring, mission-critical service businesses.</p>
+                <svg class="card-shape" width="180" height="180" viewBox="0 0 180 180"><polygon points="90,10 170,170 10,170" fill="white"/></svg>
             </div>
         </div>
     </div>
