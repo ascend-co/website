@@ -1,0 +1,1 @@
+const c="245214210",s={contact:"e12451df-8721-4273-9c09-16ab2ebb896a",perspectives:"9bc687fa-4f1f-4fb4-a08d-7d7c7c731436"},a="https://script.google.com/macros/s/AKfycbwCG9mW81lJ2Nd2MHK3TEGgeiVqJS-iU10eSFo4R5a8oVgHvBZuHfBzrXy5nAD6hWHAgQ/exec",o="a7Kq2vRm9XwL4pTn6ZsB8cHy3JdF5gQe",e="1";export{a as A,e as C,s as H,o as a,c as b};

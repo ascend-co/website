@@ -1,0 +1,105 @@
+<!DOCTYPE html><html lang="en"> <head><script>(function(){const gaId = "G-47CTKKW9YG";
+const hsSrc = "//js-na2.hs-scripts.com/245214210.js";
+const key = "ascend_cookie_consent";
+
+      window.__ascendConsent = {
+        key: key,
+        loaded: false,
+        status: (function () {
+          try {
+            return localStorage.getItem(key);
+          } catch (e) {
+            return null;
+          }
+        })(),
+        load: function () {
+          if (this.loaded) return;
+          this.loaded = true;
+
+          // Google tag (gtag.js) — head.
+          var ga = document.createElement("script");
+          ga.async = true;
+          ga.src = "https://www.googletagmanager.com/gtag/js?id=" + gaId;
+          document.head.appendChild(ga);
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = function () {
+            window.dataLayer.push(arguments);
+          };
+          window.gtag("js", new Date());
+          window.gtag("config", gaId);
+
+          // HubSpot tracking — end of body. Also sets the hubspotutk cookie the
+          // forms read. Forms still work without it; only the browsing history
+          // on the contact record is lost.
+          var hs = document.createElement("script");
+          hs.type = "text/javascript";
+          hs.id = "hs-script-loader";
+          hs.async = true;
+          hs.defer = true;
+          hs.src = hsSrc;
+          document.body.appendChild(hs);
+        },
+        grant: function () {
+          try {
+            localStorage.setItem(this.key, "granted");
+          } catch (e) {}
+          this.status = "granted";
+          this.load();
+        },
+        deny: function () {
+          try {
+            localStorage.setItem(this.key, "denied");
+          } catch (e) {}
+          this.status = "denied";
+        },
+      };
+
+      if (window.__ascendConsent.status === "granted") {
+        // load() appends to document.body, which does not exist yet in <head>.
+        document.addEventListener("DOMContentLoaded", function () {
+          window.__ascendConsent.load();
+        });
+      }
+    })();</script><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>The Ascend difference — Ascend Group</title><meta name="description" content="Who buys your business matters as much as what they pay for it. How a permanent owner-operator differs from a private equity fund or a larger competitor, question by question."><link rel="canonical" href="https://ascend-co.com/difference/"><meta property="og:site_name" content="Ascend Group"><meta property="og:type" content="website"><meta property="og:title" content="The Ascend difference"><meta property="og:description" content="Who buys your business matters as much as what they pay for it. How a permanent owner-operator differs from a private equity fund or a larger competitor, question by question."><meta property="og:url" content="https://ascend-co.com/difference/"><meta property="og:image" content="https://ascend-co.com/images/ascend-og-1200x630.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="The Ascend difference"><meta name="twitter:description" content="Who buys your business matters as much as what they pay for it. How a permanent owner-operator differs from a private equity fund or a larger competitor, question by question."><meta name="twitter:image" content="https://ascend-co.com/images/ascend-og-1200x630.png"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/_astro/add-backs.DXCx5OS3.css"></head> <body> <div style="background: #f7f4ef; width: 100%; overflow-x: clip;"> <header class="site-header"> <div class="site-header__inner"> <a href="/" class="site-header__brand"> <svg viewBox="0 0 48 48" aria-hidden="true"> <rect x="0" y="34" width="30" height="8" fill="#f2efe9"></rect> <rect x="9" y="22" width="30" height="8" fill="#d98b7c"></rect> <rect x="18" y="10" width="30" height="8" fill="#f2efe9"></rect> </svg> <span class="site-header__wordmark">Ascend Group</span> </a> <nav class="site-nav" aria-label="Primary"> <a class="site-nav__link" href="/"> About </a><a class="site-nav__link" href="/difference" aria-current="page"> Ascend Difference </a><a class="site-nav__link" href="/team"> Team </a><a class="site-nav__link" href="/perspectives"> Perspectives </a><a class="site-nav__link" href="/faq"> FAQ </a> <a class="site-nav__cta" href="/contact">Contact</a> </nav> </div> </header>  <section class="sec--rule"> <div class="wrap wrap--hero"> <div class="eyebrow mb-26">The Ascend difference</div> <h1 class="h1 max-26" style="margin-bottom: 26px;">
+Who buys your business matters as much as what they pay for it.
+</h1> <p class="lede lede--tight">
+The market is hot, and there's no shortage of private equity firms and corporations willing
+        to buy your business. We're another option, with a different approach that differs in the
+        ways that actually matter to you and your team.
+</p> </div> </section> <section class="sec--rule"> <div class="wrap" style="padding: clamp(50px, 6vw, 84px) var(--px);"> <div> <div class="diff-head"> <span></span> <span class="diff-head__us"> <svg viewBox="0 0 48 48" aria-hidden="true"> <rect x="0" y="34" width="30" height="8" fill="#1b2a3a"></rect> <rect x="9" y="22" width="30" height="8" fill="#a63f34"></rect> <rect x="18" y="10" width="30" height="8" fill="#1b2a3a"></rect> </svg> <span class="diff-head__wordmark">Ascend Group</span> </span> <span>A private equity fund</span> <span>A larger competitor</span> </div> <div class="diff-row"> <div class="diff-row__q">How long do they keep it?</div> <div class="diff-row__us"> <div class="diff-row__us-t">Forever</div> <p>We&#39;re buying one business to run, not to resell. There&#39;s no fund life or exit date behind us.</p> </div> <div class="diff-row__other" data-label="A private equity fund"> <div class="diff-row__other-t">Three to seven years</div> <p>Because the fund has to return money to its investors on a schedule.</p> </div> <div class="diff-row__other" data-label="A larger competitor"> <div class="diff-row__other-t">Permanently, folded in</div> <p>It usually becomes part of the parent company rather than staying its own operation.</p> </div> </div><div class="diff-row"> <div class="diff-row__q">Who runs it after closing?</div> <div class="diff-row__us"> <div class="diff-row__us-t">One of us, on site</div> <p>Full time, and we move to where the business is.</p> </div> <div class="diff-row__other" data-label="A private equity fund"> <div class="diff-row__other-t">A hired manager</div> <p>Reporting to the fund, or you for a while if you agree to stay.</p> </div> <div class="diff-row__other" data-label="A larger competitor"> <div class="diff-row__other-t">A regional manager</div> <p>Someone who already runs another location and adds yours to their territory.</p> </div> </div><div class="diff-row"> <div class="diff-row__q">What happens to the name?</div> <div class="diff-row__us"> <div class="diff-row__us-t">It stays</div> <p>You built the reputation, and it&#39;s worth money.</p> </div> <div class="diff-row__other" data-label="A private equity fund"> <div class="diff-row__other-t">Often rebranded later</div> <p>Kept at first, then rolled into a new brand once the platform takes shape.</p> </div> <div class="diff-row__other" data-label="A larger competitor"> <div class="diff-row__other-t">Usually retired</div> <p>In favor of theirs, generally within a year or two.</p> </div> </div><div class="diff-row"> <div class="diff-row__q">What happens to your team?</div> <div class="diff-row__us"> <div class="diff-row__us-t">Everyone gets an offer</div> <p>At the same pay or better. They&#39;re most of what we&#39;re buying.</p> </div> <div class="diff-row__other" data-label="A private equity fund"> <div class="diff-row__other-t">Depends on the model</div> <p>Headcount follows the operating plan and the cost targets.</p> </div> <div class="diff-row__other" data-label="A larger competitor"> <div class="diff-row__other-t">Overlapping roles cut</div> <p>That&#39;s often the reason for the deal.</p> </div> </div><div class="diff-row"> <div class="diff-row__q">Who decides?</div> <div class="diff-row__us"> <div class="diff-row__us-t">The two partners you meet</div> <p>There&#39;s no committee above us.</p> </div> <div class="diff-row__other" data-label="A private equity fund"> <div class="diff-row__other-t">An investment committee</div> <p>One you&#39;ll likely never meet.</p> </div> <div class="diff-row__other" data-label="A larger competitor"> <div class="diff-row__other-t">Corp dev, then the board</div> <p>A corporate development team runs the process, then their board signs off.</p> </div> </div><div class="diff-row"> <div class="diff-row__q">How is it paid for?</div> <div class="diff-row__us"> <div class="diff-row__us-t">Our own money</div> <p>Plus capital from a small group of likeminded investors, and potentially a bank loan if the deal makes sense.</p> </div> <div class="diff-row__other" data-label="A private equity fund"> <div class="diff-row__other-t">Investor money plus debt</div> <p>Significant debt gets placed on your company to make the returns work.</p> </div> <div class="diff-row__other" data-label="A larger competitor"> <div class="diff-row__other-t">Their balance sheet</div> <p>Cash they already have on hand.</p> </div> </div><div class="diff-row"> <div class="diff-row__q">What do they want from you after?</div> <div class="diff-row__us"> <div class="diff-row__us-t">Whatever you want</div> <p>Ninety days, a year, or forever. It&#39;s your call.</p> </div> <div class="diff-row__other" data-label="A private equity fund"> <div class="diff-row__other-t">A multi-year commitment</div> <p>Often tied to hitting targets.</p> </div> <div class="diff-row__other" data-label="A larger competitor"> <div class="diff-row__other-t">A short handoff</div> <p>Then they&#39;re done with you.</p> </div> </div><div class="diff-row"> <div class="diff-row__q">How many of these will they do?</div> <div class="diff-row__us"> <div class="diff-row__us-t">One, then a few nearby</div> <p>Over the years, and yours is the foundation.</p> </div> <div class="diff-row__other" data-label="A private equity fund"> <div class="diff-row__other-t">Dozens across the fund</div> <p>Yours is one line in a portfolio.</p> </div> <div class="diff-row__other" data-label="A larger competitor"> <div class="diff-row__other-t">Several a year</div> <p>Yours is a market entry.</p> </div> </div> </div> <p class="diff-note">
+Plenty of good people work at your large competitors and private equity funds (including
+        some of our team). For some owners those are the right buyers. We're describing what the
+        structures tend to require (from our experience), and the trade-offs and considerations with
+        each.
+</p> </div> </section> <section class="sec--dark"> <div class="wrap" style="padding: clamp(50px, 6vw, 88px) var(--px);"> <div class="max-30" style="margin-bottom: clamp(28px, 3.4vw, 40px);"> <h2 style="font-size: clamp(1.7rem, 2.8vw, 2.4rem); line-height: 1.08; letter-spacing: -0.03em; font-weight: 700; margin: 0;">
+Our commitment.
+</h2> </div> <div class="promise-row"> <div class="promise-row__n">01</div> <h3>No clock</h3> <p>Nobody can make us sell your business on someone else&#39;s schedule, because there&#39;s no one above us to answer to.</p> </div><div class="promise-row"> <div class="promise-row__n">02</div> <h3>No committee</h3> <p>The people you meet on the first call are the people who decide.</p> </div><div class="promise-row"> <div class="promise-row__n">03</div> <h3>No gutting</h3> <p>We&#39;re focused on building a sustainable business for the long term, not maximizing cash flow in the short term. Your team, brand, culture, and customer relationships are the foundation we&#39;ll build from.</p> </div><div class="promise-row"> <div class="promise-row__n">04</div> <h3>No disappearing</h3> <p>We&#39;ll be involved from day one as an active partner alongside you, taking what we can off your plate so you can focus on what you enjoy most.</p> </div> </div> </section> <section class="sec--rule"> <div class="wrap split-2" style="padding: clamp(50px, 6vw, 84px) var(--px);"> <div> <h2 class="h2--split max-22" style="margin-bottom: 18px;">
+Ask any buyer these questions before you sign.
+</h2> <p style="font-size: 1.03rem; line-height: 1.68; color: #414a52; margin: 0; max-width: 32em;">
+If a buyer won't answer them plainly, in writing, that tells you what you need to know.
+          We'll answer them on the first call.
+</p> </div> <div class="question-list"> <div>Will you commit in writing to keeping my people at their current pay?</div><div>How long do you intend to own this business?</div><div>Who exactly will be running it?</div><div>How much debt will be on the company post-close?</div><div>Who has to approve this deal besides you?</div> </div> </div> </section> <section class="sec--sand"> <div class="wrap wrap--band band-split"> <h2 class="h2--band max-24">Want to hear the rest in person?</h2> <a class="btn btn-dark" href="/contact">Start a conversation</a> </div> </section>  <footer class="site-footer"> <div class="site-footer__inner"> <div class="site-footer__brand"> <svg viewBox="0 0 48 48" aria-hidden="true"> <rect x="0" y="34" width="30" height="8" fill="#f2efe9"></rect> <rect x="9" y="22" width="30" height="8" fill="#d98b7c"></rect> <rect x="18" y="10" width="30" height="8" fill="#f2efe9"></rect> </svg> <span class="site-footer__wordmark">Ascend Group</span> </div> <div class="site-footer__meta"> <a href="/privacy">Privacy</a> <span>© 2026 Ascend Group LLC. All rights reserved.</span> </div> </div> </footer> </div> <div class="consent" id="consent-banner" hidden role="region" aria-label="Cookie consent"> <div class="consent__inner"> <p class="consent__text">
+We use Google Analytics and HubSpot cookies to understand how the site is used and to
+      recognize you if you get in touch. Nothing loads until you choose. See our  <a href="/privacy">privacy policy</a>.
+</p> <div class="consent__actions"> <button type="button" class="consent__decline" id="consent-decline">Decline</button> <button type="button" class="consent__accept" id="consent-accept">Accept</button> </div> </div> </div> <script>
+  (function () {
+    var banner = document.getElementById("consent-banner");
+    var consent = window.__ascendConsent;
+    if (!banner || !consent) return;
+
+    // Show only when the visitor has neither accepted nor declined.
+    if (consent.status !== "granted" && consent.status !== "denied") {
+      banner.hidden = false;
+    }
+
+    document.getElementById("consent-accept").addEventListener("click", function () {
+      consent.grant();
+      banner.hidden = true;
+    });
+
+    document.getElementById("consent-decline").addEventListener("click", function () {
+      consent.deny();
+      banner.hidden = true;
+    });
+  })();
+</script> </body></html>

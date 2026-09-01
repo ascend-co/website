@@ -1,0 +1,149 @@
+<!DOCTYPE html><html lang="en"> <head><script>(function(){const gaId = "G-47CTKKW9YG";
+const hsSrc = "//js-na2.hs-scripts.com/245214210.js";
+const key = "ascend_cookie_consent";
+
+      window.__ascendConsent = {
+        key: key,
+        loaded: false,
+        status: (function () {
+          try {
+            return localStorage.getItem(key);
+          } catch (e) {
+            return null;
+          }
+        })(),
+        load: function () {
+          if (this.loaded) return;
+          this.loaded = true;
+
+          // Google tag (gtag.js) — head.
+          var ga = document.createElement("script");
+          ga.async = true;
+          ga.src = "https://www.googletagmanager.com/gtag/js?id=" + gaId;
+          document.head.appendChild(ga);
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = function () {
+            window.dataLayer.push(arguments);
+          };
+          window.gtag("js", new Date());
+          window.gtag("config", gaId);
+
+          // HubSpot tracking — end of body. Also sets the hubspotutk cookie the
+          // forms read. Forms still work without it; only the browsing history
+          // on the contact record is lost.
+          var hs = document.createElement("script");
+          hs.type = "text/javascript";
+          hs.id = "hs-script-loader";
+          hs.async = true;
+          hs.defer = true;
+          hs.src = hsSrc;
+          document.body.appendChild(hs);
+        },
+        grant: function () {
+          try {
+            localStorage.setItem(this.key, "granted");
+          } catch (e) {}
+          this.status = "granted";
+          this.load();
+        },
+        deny: function () {
+          try {
+            localStorage.setItem(this.key, "denied");
+          } catch (e) {}
+          this.status = "denied";
+        },
+      };
+
+      if (window.__ascendConsent.status === "granted") {
+        // load() appends to document.body, which does not exist yet in <head>.
+        document.addEventListener("DOMContentLoaded", function () {
+          window.__ascendConsent.load();
+        });
+      }
+    })();</script><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>The hidden discounts — Ascend Group</title><meta name="description" content="The four risks that quietly drag your multiple down: owner dependence, feast-or-famine revenue, no recurring base, and one big customer. All four are fixable."><link rel="canonical" href="https://ascend-co.com/perspectives/hidden-discounts/"><meta property="og:site_name" content="Ascend Group"><meta property="og:type" content="article"><meta property="og:title" content="The hidden discounts"><meta property="og:description" content="The four risks that quietly drag your multiple down: owner dependence, feast-or-famine revenue, no recurring base, and one big customer. All four are fixable."><meta property="og:url" content="https://ascend-co.com/perspectives/hidden-discounts/"><meta property="og:image" content="https://ascend-co.com/images/ascend-og-1200x630.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="The hidden discounts"><meta name="twitter:description" content="The four risks that quietly drag your multiple down: owner dependence, feast-or-famine revenue, no recurring base, and one big customer. All four are fixable."><meta name="twitter:image" content="https://ascend-co.com/images/ascend-og-1200x630.png"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/_astro/add-backs.DXCx5OS3.css"></head> <body> <div style="background: #f7f4ef; width: 100%; overflow-x: clip;"> <header class="site-header"> <div class="site-header__inner"> <a href="/" class="site-header__brand"> <svg viewBox="0 0 48 48" aria-hidden="true"> <rect x="0" y="34" width="30" height="8" fill="#f2efe9"></rect> <rect x="9" y="22" width="30" height="8" fill="#d98b7c"></rect> <rect x="18" y="10" width="30" height="8" fill="#f2efe9"></rect> </svg> <span class="site-header__wordmark">Ascend Group</span> </a> <nav class="site-nav" aria-label="Primary"> <a class="site-nav__link" href="/"> About </a><a class="site-nav__link" href="/difference"> Ascend Difference </a><a class="site-nav__link" href="/team"> Team </a><a class="site-nav__link" href="/perspectives" aria-current="page"> Perspectives </a><a class="site-nav__link" href="/faq"> FAQ </a> <a class="site-nav__cta" href="/contact">Contact</a> </nav> </div> </header>  <section class="sec--rule"> <div class="wrap--article-hero"> <a class="btn-back" href="/perspectives">← Perspectives</a> <h1 class="h1 h1--article" style="margin-bottom: 22px;">The hidden discounts</h1> <p class="lede lede--article">What quietly drags your multiple down.</p> </div> </section> <section class="sec--rule"> <div class="wrap--article prose">  <p>
+In the last piece we said that two businesses with the same earnings can fetch very different
+    multiples, and that the difference comes down to risk. This piece is about the specific risks
+    that cost owners the most. The reason they are worth knowing is simple: most of them are
+    fixable, and most owners get to them a year too late.
+</p> <p>
+Here is the mindset to start with. A buyer is not inventing reasons to pay you less. When they
+    knock a discount off your price, they are pricing the odds that your earnings survive the
+    handoff. Close the risk, and the discount goes with it. These are the four that move the number
+    most.
+</p> <h2>You are the business</h2> <p>
+This is the single biggest discount in the lower middle market. If the company runs on your
+    relationships, your bids, and your head for the schedule, then a buyer is not really buying a
+    business. They are buying a job that only you know how to do.
+</p> <p>
+Buyers have a blunt way of testing this. They ask a version of one question: if the owner
+    vanished for 60 days with no phone and no email, would the business keep running and would
+    revenue hold? If the honest answer is no, expect a real haircut, or an offer loaded with
+    earnouts and holdbacks designed to keep you tied to the business long after you wanted out.
+</p> <p>
+The fix is not fast, which is exactly why it pays to start early. A tenured general manager,
+    department heads who own their lanes, and technicians who stay for years are worth real money at
+    sale. A business that clearly runs without its founder can trade a full step above one that does
+    not.
+</p> <h2>Feast-or-famine revenue</h2> <p>
+Not all revenue is valued the same. A dollar from a repeat service call is worth more than a
+    dollar from a one-off new-construction bid, even though they land in the bank the same way.
+    New-construction and project work tends to come with thin margins, slow collections, lumpy cash
+    flow, and heavy exposure to the housing cycle. Service, repair, and replacement work is steadier,
+    higher-margin, and holds up when the economy softens.
+</p> <p>
+Buyers in the trades often look for something close to a 70/30 split favoring service and
+    replacement over installation and new construction. A company weighted toward service can
+    command a clear premium over a new-construction-heavy competitor of the exact same size.
+</p> <h2>No contracts, no annuity</h2> <p>
+This is the one that moves the needle hardest in home services. Maintenance memberships, service
+    agreements, and recurring plans get valued almost like subscriptions, because they are
+    predictable, they lock out competitors, and they quietly tee up future repair and replacement
+    work.
+</p> <p>
+Here is the rough map buyers use. If recurring plans are under 15 percent of revenue, you are
+    seen as volatile and priced near the bottom of your range. Push past 30 percent and you move
+    into the upper tier. Get past 50 percent and even a modest business can start attracting the
+    kind of multiples usually reserved for much larger platforms. If you do one thing to your
+    business before a sale, building a real recurring base is often it.
+</p> <h2>One big customer</h2> <p>
+If a single customer is more than about 20 percent of your revenue, or your top five are more
+    than half of it, buyers get nervous, and the banks financing them get more nervous still. The
+    worry is straightforward: lose that account after closing and the earnings they just paid for
+    walk out the door. Expect a discount, or deal terms that push part of that risk back onto you.
+</p> <p>The fix is to broaden the base well before you sell, so that no single logo can sink the ship.</p> <h2>Our honest take</h2> <p>
+None of these is a trick, and none of them is personal. Each one is a real question about whether
+    your earnings will still be there a year after you hand over the keys. The good news is that
+    every item on this list is within your control, given enough runway.
+</p> <p>
+Owners who spend two or three years turning themselves into the least important person in the
+    building, growing a recurring base, and spreading their customer risk do not just sell for more.
+    They sleep better while they still own the place.
+</p> <p>
+In the next piece we will look at the flip side. Even after you have cleaned up the risks, a
+    buyer still has to be able to see your true earnings in the first place. That is where  <a href="/perspectives/add-backs">add-backs</a> come in, and it is where a surprising amount of
+    value is either captured or quietly left on the table.
+</p>   </div> </section> <section class="sec--dark"> <div class="wrap--article-band band-split"> <div class="max-26"> <div class="eyebrow eyebrow--onDark mb-14">Next step</div> <p style="font-size: clamp(1.15rem, 1.7vw, 1.5rem); line-height: 1.35; letter-spacing: -0.025em; font-weight: 600; margin: 0; text-wrap: pretty;"> Next, the flip side: the earnings hiding in your P&amp;L. </p> </div> <a class="btn-next" href="/perspectives/add-backs"> Read add-backs <span style="font-size: 14px; line-height: 1;">→</span> </a> </div> </section>  <footer class="site-footer"> <div class="site-footer__inner"> <div class="site-footer__brand"> <svg viewBox="0 0 48 48" aria-hidden="true"> <rect x="0" y="34" width="30" height="8" fill="#f2efe9"></rect> <rect x="9" y="22" width="30" height="8" fill="#d98b7c"></rect> <rect x="18" y="10" width="30" height="8" fill="#f2efe9"></rect> </svg> <span class="site-footer__wordmark">Ascend Group</span> </div> <div class="site-footer__meta"> <a href="/privacy">Privacy</a> <span>© 2026 Ascend Group LLC. All rights reserved.</span> </div> </div> </footer> </div> <div class="consent" id="consent-banner" hidden role="region" aria-label="Cookie consent"> <div class="consent__inner"> <p class="consent__text">
+We use Google Analytics and HubSpot cookies to understand how the site is used and to
+      recognize you if you get in touch. Nothing loads until you choose. See our  <a href="/privacy">privacy policy</a>.
+</p> <div class="consent__actions"> <button type="button" class="consent__decline" id="consent-decline">Decline</button> <button type="button" class="consent__accept" id="consent-accept">Accept</button> </div> </div> </div> <script>
+  (function () {
+    var banner = document.getElementById("consent-banner");
+    var consent = window.__ascendConsent;
+    if (!banner || !consent) return;
+
+    // Show only when the visitor has neither accepted nor declined.
+    if (consent.status !== "granted" && consent.status !== "denied") {
+      banner.hidden = false;
+    }
+
+    document.getElementById("consent-accept").addEventListener("click", function () {
+      consent.grant();
+      banner.hidden = true;
+    });
+
+    document.getElementById("consent-decline").addEventListener("click", function () {
+      consent.deny();
+      banner.hidden = true;
+    });
+  })();
+</script> </body></html>

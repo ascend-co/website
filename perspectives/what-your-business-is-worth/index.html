@@ -1,0 +1,148 @@
+<!DOCTYPE html><html lang="en"> <head><script>(function(){const gaId = "G-47CTKKW9YG";
+const hsSrc = "//js-na2.hs-scripts.com/245214210.js";
+const key = "ascend_cookie_consent";
+
+      window.__ascendConsent = {
+        key: key,
+        loaded: false,
+        status: (function () {
+          try {
+            return localStorage.getItem(key);
+          } catch (e) {
+            return null;
+          }
+        })(),
+        load: function () {
+          if (this.loaded) return;
+          this.loaded = true;
+
+          // Google tag (gtag.js) — head.
+          var ga = document.createElement("script");
+          ga.async = true;
+          ga.src = "https://www.googletagmanager.com/gtag/js?id=" + gaId;
+          document.head.appendChild(ga);
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = function () {
+            window.dataLayer.push(arguments);
+          };
+          window.gtag("js", new Date());
+          window.gtag("config", gaId);
+
+          // HubSpot tracking — end of body. Also sets the hubspotutk cookie the
+          // forms read. Forms still work without it; only the browsing history
+          // on the contact record is lost.
+          var hs = document.createElement("script");
+          hs.type = "text/javascript";
+          hs.id = "hs-script-loader";
+          hs.async = true;
+          hs.defer = true;
+          hs.src = hsSrc;
+          document.body.appendChild(hs);
+        },
+        grant: function () {
+          try {
+            localStorage.setItem(this.key, "granted");
+          } catch (e) {}
+          this.status = "granted";
+          this.load();
+        },
+        deny: function () {
+          try {
+            localStorage.setItem(this.key, "denied");
+          } catch (e) {}
+          this.status = "denied";
+        },
+      };
+
+      if (window.__ascendConsent.status === "granted") {
+        // load() appends to document.body, which does not exist yet in <head>.
+        document.addEventListener("DOMContentLoaded", function () {
+          window.__ascendConsent.load();
+        });
+      }
+    })();</script><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>What your business is actually worth — Ascend Group</title><meta name="description" content="What buyers add back, how crossing the $1 million profit milestone changes the math in your favor, and why the multiple is a risk gauge rather than an industry constant."><link rel="canonical" href="https://ascend-co.com/perspectives/what-your-business-is-worth/"><meta property="og:site_name" content="Ascend Group"><meta property="og:type" content="article"><meta property="og:title" content="What your business is actually worth"><meta property="og:description" content="What buyers add back, how crossing the $1 million profit milestone changes the math in your favor, and why the multiple is a risk gauge rather than an industry constant."><meta property="og:url" content="https://ascend-co.com/perspectives/what-your-business-is-worth/"><meta property="og:image" content="https://ascend-co.com/images/ascend-og-1200x630.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="What your business is actually worth"><meta name="twitter:description" content="What buyers add back, how crossing the $1 million profit milestone changes the math in your favor, and why the multiple is a risk gauge rather than an industry constant."><meta name="twitter:image" content="https://ascend-co.com/images/ascend-og-1200x630.png"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/_astro/add-backs.DXCx5OS3.css"></head> <body> <div style="background: #f7f4ef; width: 100%; overflow-x: clip;"> <header class="site-header"> <div class="site-header__inner"> <a href="/" class="site-header__brand"> <svg viewBox="0 0 48 48" aria-hidden="true"> <rect x="0" y="34" width="30" height="8" fill="#f2efe9"></rect> <rect x="9" y="22" width="30" height="8" fill="#d98b7c"></rect> <rect x="18" y="10" width="30" height="8" fill="#f2efe9"></rect> </svg> <span class="site-header__wordmark">Ascend Group</span> </a> <nav class="site-nav" aria-label="Primary"> <a class="site-nav__link" href="/"> About </a><a class="site-nav__link" href="/difference"> Ascend Difference </a><a class="site-nav__link" href="/team"> Team </a><a class="site-nav__link" href="/perspectives" aria-current="page"> Perspectives </a><a class="site-nav__link" href="/faq"> FAQ </a> <a class="site-nav__cta" href="/contact">Contact</a> </nav> </div> </header>  <section class="sec--rule"> <div class="wrap--article-hero"> <a class="btn-back" href="/perspectives">← Perspectives</a> <h1 class="h1 h1--article" style="margin-bottom: 22px;">What your business is actually worth</h1> <p class="lede lede--article">And why the number in your head is probably wrong.</p> </div> </section> <section class="sec--rule"> <div class="wrap--article prose">  <p>
+Most owners we talk to already have a number in mind. It came from a neighbor who sold his
+    company, a broker's quick math, or the old rule that a business is worth X times its profit.
+    Sometimes that number is close. More often it is wrong, and it is wrong in a way that can cost
+    owners real money, either by scaring them out of a good deal or by anchoring them to a price no
+    serious buyer will pay.
+</p> <p>So we wanted to share our perspective based on our experience.</p> <h2>The value of a business is not a fixed number, but a negotiated outcome</h2> <p>
+Two things drive it: 1.) what your business earns and 2.) how risky those earnings look to the
+    person writing the check. Given that both of those are subjective, a multiple is not a fact you
+    can look up. It is a buyer's shorthand for how confident they are that your earnings will
+    continue after the deal closes.
+</p> <h2>The $1 million milestone</h2> <p>
+There is a quiet but important shift that happens as a business crosses roughly $1 million in
+    annual profit.
+</p> <p>
+Below that line, most buyers are individuals looking to buy themselves a job and a good living.
+    They value your company on Seller's Discretionary Earnings, or SDE. That is the total benefit
+    the business throws off for a single owner-operator: your profit, plus your salary, plus the
+    personal costs you reasonably run through the company. They add your pay back in because they
+    are stepping into your seat.
+</p> <p>
+Above that line, you attract a different buyer: search funds, private equity, and strategic
+    acquirers who are not planning to run your business themselves. They value your company on
+    EBITDA, short for earnings before interest, taxes, depreciation, and amortization, which is
+    really just a simplified measure of the company's operating profit. Oftentimes these buyers
+    treat your salary the opposite way: they subtract what it would cost to hire a professional
+    manager to do your job, because that manager is a real cost they'll take on once they own the
+    business, to the extent you're not staying on to run it.
+</p> <p>That sounds like bad news, but can in many cases be a good thing for owners.</p> <h2>Why crossing that milestone tends to raise your value, not lower it</h2> <p>
+Picture two companies. The first clears $600k a year for an owner who runs everything himself. A
+    buyer values it on SDE and pays maybe three times that number, so around $1.8 million. The
+    second clears $1.5 million (150% more than the first business) and has a general manager
+    handling the day to day. A buyer values that one on EBITDA. First they subtract a market salary
+    for the manager who would replace the owner, say $150k, which leaves about $1.35 million of
+    adjusted earnings. But because the business operates without its founder, they pay a higher
+    multiple on that figure, say five times, so around $6.75 million, or 275% more than the smaller
+    company.
+</p> <p>
+Same industry, but the owner of the larger business gets a premium on their multiple, in large
+    part because most buyers would view their business's earnings as less risky.
+</p> <h2>The multiple is a risk gauge, not an industry constant</h2> <p>
+This is where most rules of thumb fall apart. There is no single "door multiple" or "septic
+    multiple." Two companies with identical earnings can fetch wildly different multiples based on
+    risk alone. Recurring or contracted revenue earns more than one-off project work. A business
+    that leans heavily on the owner will fetch a lower price than one that does not. A company where
+    a single customer is 30 percent of sales will get dinged on valuation compared to one with a
+    broader base of customers. We will dig into each of these later, because they are important
+    factors to understand before you go to sell, and are within your control until then.
+</p> <h2>Our honest take</h2> <p>
+We are a buyer, so read this with that in mind. But here is what we believe: the owners who get
+    the best outcomes are not the ones with the best broker (as important as they are). They are the
+    ones who walk in knowing their real earnings and their real risks. When you know your number and
+    you know why it is what it is, you negotiate from strength, you spot a lowball fast, and you do
+    not get talked out of a fair price.
+</p> <p>
+That is good for both you and buyers like us, because a well-understood business is a cleaner,
+    faster, more straightforward deal. We would rather pay a fair price to an owner who knows what
+    they have than steal a business from one who does not.
+</p> <p>
+Knowing what your business is worth is step one. In another post, we cover  <a href="/perspectives/hidden-discounts">the hidden discounts</a>: the specific things that
+    quietly drag your multiple down, and what you can do about them before you think about selling.
+</p>   </div> </section> <section class="sec--dark"> <div class="wrap--article-band band-split"> <div class="max-26"> <div class="eyebrow eyebrow--onDark mb-14">Next step</div> <p style="font-size: clamp(1.15rem, 1.7vw, 1.5rem); line-height: 1.35; letter-spacing: -0.025em; font-weight: 600; margin: 0; text-wrap: pretty;"> Run your own numbers through the eight factors buyers weigh. </p> </div> <a class="btn-next" href="/calculator"> Open calculator <span style="font-size: 14px; line-height: 1;">→</span> </a> </div> </section>  <footer class="site-footer"> <div class="site-footer__inner"> <div class="site-footer__brand"> <svg viewBox="0 0 48 48" aria-hidden="true"> <rect x="0" y="34" width="30" height="8" fill="#f2efe9"></rect> <rect x="9" y="22" width="30" height="8" fill="#d98b7c"></rect> <rect x="18" y="10" width="30" height="8" fill="#f2efe9"></rect> </svg> <span class="site-footer__wordmark">Ascend Group</span> </div> <div class="site-footer__meta"> <a href="/privacy">Privacy</a> <span>© 2026 Ascend Group LLC. All rights reserved.</span> </div> </div> </footer> </div> <div class="consent" id="consent-banner" hidden role="region" aria-label="Cookie consent"> <div class="consent__inner"> <p class="consent__text">
+We use Google Analytics and HubSpot cookies to understand how the site is used and to
+      recognize you if you get in touch. Nothing loads until you choose. See our  <a href="/privacy">privacy policy</a>.
+</p> <div class="consent__actions"> <button type="button" class="consent__decline" id="consent-decline">Decline</button> <button type="button" class="consent__accept" id="consent-accept">Accept</button> </div> </div> </div> <script>
+  (function () {
+    var banner = document.getElementById("consent-banner");
+    var consent = window.__ascendConsent;
+    if (!banner || !consent) return;
+
+    // Show only when the visitor has neither accepted nor declined.
+    if (consent.status !== "granted" && consent.status !== "denied") {
+      banner.hidden = false;
+    }
+
+    document.getElementById("consent-accept").addEventListener("click", function () {
+      consent.grant();
+      banner.hidden = true;
+    });
+
+    document.getElementById("consent-decline").addEventListener("click", function () {
+      consent.deny();
+      banner.hidden = true;
+    });
+  })();
+</script> </body></html>

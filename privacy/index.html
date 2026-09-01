@@ -1,0 +1,121 @@
+<!DOCTYPE html><html lang="en"> <head><script>(function(){const gaId = "G-47CTKKW9YG";
+const hsSrc = "//js-na2.hs-scripts.com/245214210.js";
+const key = "ascend_cookie_consent";
+
+      window.__ascendConsent = {
+        key: key,
+        loaded: false,
+        status: (function () {
+          try {
+            return localStorage.getItem(key);
+          } catch (e) {
+            return null;
+          }
+        })(),
+        load: function () {
+          if (this.loaded) return;
+          this.loaded = true;
+
+          // Google tag (gtag.js) — head.
+          var ga = document.createElement("script");
+          ga.async = true;
+          ga.src = "https://www.googletagmanager.com/gtag/js?id=" + gaId;
+          document.head.appendChild(ga);
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = function () {
+            window.dataLayer.push(arguments);
+          };
+          window.gtag("js", new Date());
+          window.gtag("config", gaId);
+
+          // HubSpot tracking — end of body. Also sets the hubspotutk cookie the
+          // forms read. Forms still work without it; only the browsing history
+          // on the contact record is lost.
+          var hs = document.createElement("script");
+          hs.type = "text/javascript";
+          hs.id = "hs-script-loader";
+          hs.async = true;
+          hs.defer = true;
+          hs.src = hsSrc;
+          document.body.appendChild(hs);
+        },
+        grant: function () {
+          try {
+            localStorage.setItem(this.key, "granted");
+          } catch (e) {}
+          this.status = "granted";
+          this.load();
+        },
+        deny: function () {
+          try {
+            localStorage.setItem(this.key, "denied");
+          } catch (e) {}
+          this.status = "denied";
+        },
+      };
+
+      if (window.__ascendConsent.status === "granted") {
+        // load() appends to document.body, which does not exist yet in <head>.
+        document.addEventListener("DOMContentLoaded", function () {
+          window.__ascendConsent.load();
+        });
+      }
+    })();</script><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Privacy policy — Ascend Group</title><meta name="description" content="How Ascend Group handles information collected through this website, including the analytics and marketing cookies we use."><link rel="canonical" href="https://ascend-co.com/privacy/"><meta property="og:site_name" content="Ascend Group"><meta property="og:type" content="website"><meta property="og:title" content="Privacy policy"><meta property="og:description" content="How Ascend Group handles information collected through this website, including the analytics and marketing cookies we use."><meta property="og:url" content="https://ascend-co.com/privacy/"><meta property="og:image" content="https://ascend-co.com/images/ascend-og-1200x630.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Privacy policy"><meta name="twitter:description" content="How Ascend Group handles information collected through this website, including the analytics and marketing cookies we use."><meta name="twitter:image" content="https://ascend-co.com/images/ascend-og-1200x630.png"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/_astro/add-backs.DXCx5OS3.css"></head> <body> <div style="background: #f7f4ef; width: 100%; overflow-x: clip;"> <header class="site-header"> <div class="site-header__inner"> <a href="/" class="site-header__brand"> <svg viewBox="0 0 48 48" aria-hidden="true"> <rect x="0" y="34" width="30" height="8" fill="#f2efe9"></rect> <rect x="9" y="22" width="30" height="8" fill="#d98b7c"></rect> <rect x="18" y="10" width="30" height="8" fill="#f2efe9"></rect> </svg> <span class="site-header__wordmark">Ascend Group</span> </a> <nav class="site-nav" aria-label="Primary"> <a class="site-nav__link" href="/"> About </a><a class="site-nav__link" href="/difference"> Ascend Difference </a><a class="site-nav__link" href="/team"> Team </a><a class="site-nav__link" href="/perspectives"> Perspectives </a><a class="site-nav__link" href="/faq"> FAQ </a> <a class="site-nav__cta" href="/contact">Contact</a> </nav> </div> </header>  <section class="sec--rule"> <div class="wrap--article-hero"> <div class="eyebrow mb-26">Legal</div> <h1 class="h1 h1--article" style="margin-bottom: 22px;">Privacy policy</h1> <p class="lede lede--article">Last updated 31 August 2026.</p> </div> </section> <section class="sec--rule"> <div class="wrap--article prose"> <p> <strong>Draft.</strong> This policy is being finalised. The disclosures below describe what
+        the site does today; the full wording will replace this page before launch.
+</p> <h2>Who we are</h2> <p>
+Ascend Group LLC operates this website. If you have any question about this policy or about
+        information we hold, email <a href="mailto:contact@ascend-co.com">contact@ascend-co.com</a>.
+</p> <h2>Information you give us</h2> <p>
+If you fill in the contact form we receive your name, email address, company, the buyer type
+        you selected, and your message. If you sign up for our perspectives we receive your email
+        address. We use this to reply to you and, where you have asked for it, to send you our
+        written guides. We do not sell it.
+</p> <h2>The valuation calculator</h2> <p>
+The calculator is anonymous. Your answers and the range they produce are recorded without
+        your name, your email address, or any identifier that ties the entry back to you or to your
+        browsing on this site. We look at those answers only in aggregate, to understand which
+        questions are useful and to improve the tool.
+</p> <h2>Cookies and analytics</h2> <p>
+With your consent we use Google Analytics to understand how visitors find and move through
+        this site. Google Analytics sets cookies and processes data including your approximate
+        location, device and browser, and the pages you view. Information collected by Google
+        Analytics may be transferred to and stored by Google. You can read more in  <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">Google's privacy policy</a>.
+</p> <p>
+With your consent we also use HubSpot, our customer relationship system, which sets a cookie
+        identifying your browser so that if you later get in touch we can see which pages brought
+        you to us. You can read more in  <a href="https://legal.hubspot.com/privacy-policy" rel="noopener noreferrer" target="_blank">HubSpot's privacy policy</a>.
+</p> <p>
+Neither of these loads until you accept cookies on the banner shown on your first visit. If
+        you decline, no analytics or marketing cookies are set and the forms on this site still work
+        normally. To change your choice, clear this site's data in your browser and reload the page.
+</p> <h2>How long we keep information</h2> <p>
+We keep enquiries for as long as we are in contact with you and for a reasonable period
+        afterwards. You can ask us to delete your information at any time by emailing  <a href="mailto:contact@ascend-co.com">contact@ascend-co.com</a>.
+</p> <h2>Changes to this policy</h2> <p>
+If we change how we handle information we will update this page and the date at the top of
+        it.
+</p> </div> </section>  <footer class="site-footer"> <div class="site-footer__inner"> <div class="site-footer__brand"> <svg viewBox="0 0 48 48" aria-hidden="true"> <rect x="0" y="34" width="30" height="8" fill="#f2efe9"></rect> <rect x="9" y="22" width="30" height="8" fill="#d98b7c"></rect> <rect x="18" y="10" width="30" height="8" fill="#f2efe9"></rect> </svg> <span class="site-footer__wordmark">Ascend Group</span> </div> <div class="site-footer__meta"> <a href="/privacy">Privacy</a> <span>© 2026 Ascend Group LLC. All rights reserved.</span> </div> </div> </footer> </div> <div class="consent" id="consent-banner" hidden role="region" aria-label="Cookie consent"> <div class="consent__inner"> <p class="consent__text">
+We use Google Analytics and HubSpot cookies to understand how the site is used and to
+      recognize you if you get in touch. Nothing loads until you choose. See our  <a href="/privacy">privacy policy</a>.
+</p> <div class="consent__actions"> <button type="button" class="consent__decline" id="consent-decline">Decline</button> <button type="button" class="consent__accept" id="consent-accept">Accept</button> </div> </div> </div> <script>
+  (function () {
+    var banner = document.getElementById("consent-banner");
+    var consent = window.__ascendConsent;
+    if (!banner || !consent) return;
+
+    // Show only when the visitor has neither accepted nor declined.
+    if (consent.status !== "granted" && consent.status !== "denied") {
+      banner.hidden = false;
+    }
+
+    document.getElementById("consent-accept").addEventListener("click", function () {
+      consent.grant();
+      banner.hidden = true;
+    });
+
+    document.getElementById("consent-decline").addEventListener("click", function () {
+      consent.deny();
+      banner.hidden = true;
+    });
+  })();
+</script> </body></html>
