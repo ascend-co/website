@@ -1,66 +1,12 @@
-<!DOCTYPE html><html lang="en"> <head><script>(function(){const gaId = "G-47CTKKW9YG";
-const hsSrc = "//js-na2.hs-scripts.com/245214210.js";
-const key = "ascend_cookie_consent";
+<!DOCTYPE html><html lang="en"> <head><script async src="https://www.googletagmanager.com/gtag/js?id=G-47CTKKW9YG"></script><script>(function(){const gaId = "G-47CTKKW9YG";
 
-      window.__ascendConsent = {
-        key: key,
-        loaded: false,
-        status: (function () {
-          try {
-            return localStorage.getItem(key);
-          } catch (e) {
-            return null;
-          }
-        })(),
-        load: function () {
-          if (this.loaded) return;
-          this.loaded = true;
-
-          // Google tag (gtag.js) — head.
-          var ga = document.createElement("script");
-          ga.async = true;
-          ga.src = "https://www.googletagmanager.com/gtag/js?id=" + gaId;
-          document.head.appendChild(ga);
-          window.dataLayer = window.dataLayer || [];
-          window.gtag = function () {
-            window.dataLayer.push(arguments);
-          };
-          window.gtag("js", new Date());
-          window.gtag("config", gaId);
-
-          // HubSpot tracking — end of body. Also sets the hubspotutk cookie the
-          // forms read. Forms still work without it; only the browsing history
-          // on the contact record is lost.
-          var hs = document.createElement("script");
-          hs.type = "text/javascript";
-          hs.id = "hs-script-loader";
-          hs.async = true;
-          hs.defer = true;
-          hs.src = hsSrc;
-          document.body.appendChild(hs);
-        },
-        grant: function () {
-          try {
-            localStorage.setItem(this.key, "granted");
-          } catch (e) {}
-          this.status = "granted";
-          this.load();
-        },
-        deny: function () {
-          try {
-            localStorage.setItem(this.key, "denied");
-          } catch (e) {}
-          this.status = "denied";
-        },
-      };
-
-      if (window.__ascendConsent.status === "granted") {
-        // load() appends to document.body, which does not exist yet in <head>.
-        document.addEventListener("DOMContentLoaded", function () {
-          window.__ascendConsent.load();
-        });
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
       }
-    })();</script><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Ascend Group — We buy great businesses and run them for the long haul</title><meta name="description" content="Ascend Group is a holding company dedicated to the success of family and founder-owned businesses in the essential trades. We buy companies and partner with the people who built them."><link rel="canonical" href="https://ascend-co.com/"><meta property="og:site_name" content="Ascend Group"><meta property="og:type" content="website"><meta property="og:title" content="Ascend Group — We buy great businesses and run them for the long haul"><meta property="og:description" content="Ascend Group is a holding company dedicated to the success of family and founder-owned businesses in the essential trades. We buy companies and partner with the people who built them."><meta property="og:url" content="https://ascend-co.com/"><meta property="og:image" content="https://ascend-co.com/images/ascend-og-1200x630.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Ascend Group — We buy great businesses and run them for the long haul"><meta name="twitter:description" content="Ascend Group is a holding company dedicated to the success of family and founder-owned businesses in the essential trades. We buy companies and partner with the people who built them."><meta name="twitter:image" content="https://ascend-co.com/images/ascend-og-1200x630.png"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/_astro/add-backs.DXCx5OS3.css"></head> <body> <div style="background: #f7f4ef; width: 100%; overflow-x: clip;"> <header class="site-header"> <div class="site-header__inner"> <a href="/" class="site-header__brand"> <svg viewBox="0 0 48 48" aria-hidden="true"> <rect x="0" y="34" width="30" height="8" fill="#f2efe9"></rect> <rect x="9" y="22" width="30" height="8" fill="#d98b7c"></rect> <rect x="18" y="10" width="30" height="8" fill="#f2efe9"></rect> </svg> <span class="site-header__wordmark">Ascend Group</span> </a> <nav class="site-nav" aria-label="Primary"> <a class="site-nav__link" href="/" aria-current="page"> About </a><a class="site-nav__link" href="/difference"> Ascend Difference </a><a class="site-nav__link" href="/team"> Team </a><a class="site-nav__link" href="/perspectives"> Perspectives </a><a class="site-nav__link" href="/faq"> FAQ </a> <a class="site-nav__cta" href="/contact">Contact</a> </nav> </div> </header>  <section id="top" class="sec--rule"> <div class="wrap wrap--hero"> <div style="max-width: 46em;"> <div class="eyebrow mb-26">A long-term partner for the businesses that keep America running</div> <h1 class="h1" style="margin-bottom: 24px;">We buy great businesses and run them for the long haul.</h1> <p class="lede">
+      gtag("js", new Date());
+      gtag("config", gaId);
+    })();</script><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Ascend Group — We buy great businesses and run them for the long haul</title><meta name="description" content="Ascend Group is a holding company dedicated to the success of family and founder-owned businesses in the essential trades. We buy companies and partner with the people who built them."><link rel="canonical" href="https://ascend-co.com/"><meta property="og:site_name" content="Ascend Group"><meta property="og:type" content="website"><meta property="og:title" content="Ascend Group — We buy great businesses and run them for the long haul"><meta property="og:description" content="Ascend Group is a holding company dedicated to the success of family and founder-owned businesses in the essential trades. We buy companies and partner with the people who built them."><meta property="og:url" content="https://ascend-co.com/"><meta property="og:image" content="https://ascend-co.com/images/ascend-og-1200x630.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Ascend Group — We buy great businesses and run them for the long haul"><meta name="twitter:description" content="Ascend Group is a holding company dedicated to the success of family and founder-owned businesses in the essential trades. We buy companies and partner with the people who built them."><meta name="twitter:image" content="https://ascend-co.com/images/ascend-og-1200x630.png"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/_astro/add-backs.DsBlOGwR.css"></head> <body> <div style="background: #f7f4ef; width: 100%; overflow-x: clip;"> <header class="site-header"> <div class="site-header__inner"> <a href="/" class="site-header__brand"> <svg viewBox="0 0 48 48" aria-hidden="true"> <rect x="0" y="34" width="30" height="8" fill="#f2efe9"></rect> <rect x="9" y="22" width="30" height="8" fill="#d98b7c"></rect> <rect x="18" y="10" width="30" height="8" fill="#f2efe9"></rect> </svg> <span class="site-header__wordmark">Ascend Group</span> </a> <nav class="site-nav" aria-label="Primary"> <a class="site-nav__link" href="/" aria-current="page"> About </a><a class="site-nav__link" href="/difference"> Ascend Difference </a><a class="site-nav__link" href="/team"> Team </a><a class="site-nav__link" href="/perspectives"> Perspectives </a><a class="site-nav__link" href="/faq"> FAQ </a> <a class="site-nav__cta" href="/contact">Contact</a> </nav> </div> </header>  <section id="top" class="sec--rule"> <div class="wrap wrap--hero"> <div style="max-width: 46em;"> <div class="eyebrow mb-26">A long-term partner for the businesses that keep America running</div> <h1 class="h1" style="margin-bottom: 24px;">We buy great businesses and run them for the long haul.</h1> <p class="lede">
 Ascend Group is a holding company dedicated to the success of family and founder-owned
           businesses. We buy companies and partner with the people who built them. The foundation
           you've laid remains and we build from there.
@@ -71,28 +17,4 @@ Let's build something together.
 </h2> <p style="font-size: 1.03rem; line-height: 1.68; color: #b7c2cc; max-width: 28em; margin: 0 0 28px;">
 If you own a business and are thinking about what comes next, even if it's a few years
           out, we'd like to hear from you.
-</p> <div class="contact-email"> <a href="mailto:contact@ascend-co.com">contact@ascend-co.com</a> </div> </div> <div> <astro-island uid="ZIUBkV" prefix="r3" component-url="/_astro/ContactForm.BUGU95x0.js" component-export="default" renderer-url="/_astro/client.Bz692-Ao.js" props="{}" ssr client="visible" opts="{&quot;name&quot;:&quot;ContactForm&quot;,&quot;value&quot;:true}" await-children><form class="form-grid"><label class="field"><span class="field__label">Name</span><input type="text" name="name" required="" autoComplete="name"/></label><label class="field"><span class="field__label">Email</span><input type="email" name="email" required="" autoComplete="email"/></label><label class="field"><span class="field__label">Company</span><input type="text" name="company" autoComplete="organization"/></label><label class="field"><span class="field__label">I am a</span><select name="i_am_a"><option value="Business owner" selected="">Business owner</option><option value="Broker or intermediary">Broker or intermediary</option><option value="Investor">Investor</option><option value="Other">Other</option></select></label><label class="field field--wide"><span class="field__label">Message</span><textarea name="message" rows="3" placeholder="Your trade, roughly how big, and what you&#x27;re thinking about…"></textarea></label><div class="honeypot" aria-hidden="true"><label>Website<input type="text" name="website" tabindex="-1" autoComplete="off" aria-hidden="true"/></label></div><div class="form-actions"><button type="submit" class="btn btn-light">Start a conversation</button></div></form><!--astro:end--></astro-island> </div> </div> </section>  <footer class="site-footer"> <div class="site-footer__inner"> <div class="site-footer__brand"> <svg viewBox="0 0 48 48" aria-hidden="true"> <rect x="0" y="34" width="30" height="8" fill="#f2efe9"></rect> <rect x="9" y="22" width="30" height="8" fill="#d98b7c"></rect> <rect x="18" y="10" width="30" height="8" fill="#f2efe9"></rect> </svg> <span class="site-footer__wordmark">Ascend Group</span> </div> <div class="site-footer__meta"> <a href="/privacy">Privacy</a> <span>© 2026 Ascend Group LLC. All rights reserved.</span> </div> </div> </footer> </div> <div class="consent" id="consent-banner" hidden role="region" aria-label="Cookie consent"> <div class="consent__inner"> <p class="consent__text">
-We use Google Analytics and HubSpot cookies to understand how the site is used and to
-      recognize you if you get in touch. Nothing loads until you choose. See our  <a href="/privacy">privacy policy</a>.
-</p> <div class="consent__actions"> <button type="button" class="consent__decline" id="consent-decline">Decline</button> <button type="button" class="consent__accept" id="consent-accept">Accept</button> </div> </div> </div> <script>
-  (function () {
-    var banner = document.getElementById("consent-banner");
-    var consent = window.__ascendConsent;
-    if (!banner || !consent) return;
-
-    // Show only when the visitor has neither accepted nor declined.
-    if (consent.status !== "granted" && consent.status !== "denied") {
-      banner.hidden = false;
-    }
-
-    document.getElementById("consent-accept").addEventListener("click", function () {
-      consent.grant();
-      banner.hidden = true;
-    });
-
-    document.getElementById("consent-decline").addEventListener("click", function () {
-      consent.deny();
-      banner.hidden = true;
-    });
-  })();
-</script> </body></html>
+</p> <div class="contact-email"> <a href="mailto:contact@ascend-co.com">contact@ascend-co.com</a> </div> </div> <div> <astro-island uid="ZIUBkV" prefix="r3" component-url="/_astro/ContactForm.BUGU95x0.js" component-export="default" renderer-url="/_astro/client.Bz692-Ao.js" props="{}" ssr client="visible" opts="{&quot;name&quot;:&quot;ContactForm&quot;,&quot;value&quot;:true}" await-children><form class="form-grid"><label class="field"><span class="field__label">Name</span><input type="text" name="name" required="" autoComplete="name"/></label><label class="field"><span class="field__label">Email</span><input type="email" name="email" required="" autoComplete="email"/></label><label class="field"><span class="field__label">Company</span><input type="text" name="company" autoComplete="organization"/></label><label class="field"><span class="field__label">I am a</span><select name="i_am_a"><option value="Business owner" selected="">Business owner</option><option value="Broker or intermediary">Broker or intermediary</option><option value="Investor">Investor</option><option value="Other">Other</option></select></label><label class="field field--wide"><span class="field__label">Message</span><textarea name="message" rows="3" placeholder="Your trade, roughly how big, and what you&#x27;re thinking about…"></textarea></label><div class="honeypot" aria-hidden="true"><label>Website<input type="text" name="website" tabindex="-1" autoComplete="off" aria-hidden="true"/></label></div><div class="form-actions"><button type="submit" class="btn btn-light">Start a conversation</button></div></form><!--astro:end--></astro-island> </div> </div> </section>  <footer class="site-footer"> <div class="site-footer__inner"> <div class="site-footer__brand"> <svg viewBox="0 0 48 48" aria-hidden="true"> <rect x="0" y="34" width="30" height="8" fill="#f2efe9"></rect> <rect x="9" y="22" width="30" height="8" fill="#d98b7c"></rect> <rect x="18" y="10" width="30" height="8" fill="#f2efe9"></rect> </svg> <span class="site-footer__wordmark">Ascend Group</span> </div> <div class="site-footer__meta"> <a href="/privacy">Privacy</a> <span>© 2026 Ascend Group LLC. All rights reserved.</span> </div> </div> </footer> </div>  <script type="text/javascript" id="hs-script-loader" async defer src="//js-na2.hs-scripts.com/245214210.js"></script> </body> </html>

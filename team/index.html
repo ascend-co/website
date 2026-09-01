@@ -1,87 +1,9 @@
-<!DOCTYPE html><html lang="en"> <head><script>(function(){const gaId = "G-47CTKKW9YG";
-const hsSrc = "//js-na2.hs-scripts.com/245214210.js";
-const key = "ascend_cookie_consent";
+<!DOCTYPE html><html lang="en"> <head><script async src="https://www.googletagmanager.com/gtag/js?id=G-47CTKKW9YG"></script><script>(function(){const gaId = "G-47CTKKW9YG";
 
-      window.__ascendConsent = {
-        key: key,
-        loaded: false,
-        status: (function () {
-          try {
-            return localStorage.getItem(key);
-          } catch (e) {
-            return null;
-          }
-        })(),
-        load: function () {
-          if (this.loaded) return;
-          this.loaded = true;
-
-          // Google tag (gtag.js) — head.
-          var ga = document.createElement("script");
-          ga.async = true;
-          ga.src = "https://www.googletagmanager.com/gtag/js?id=" + gaId;
-          document.head.appendChild(ga);
-          window.dataLayer = window.dataLayer || [];
-          window.gtag = function () {
-            window.dataLayer.push(arguments);
-          };
-          window.gtag("js", new Date());
-          window.gtag("config", gaId);
-
-          // HubSpot tracking — end of body. Also sets the hubspotutk cookie the
-          // forms read. Forms still work without it; only the browsing history
-          // on the contact record is lost.
-          var hs = document.createElement("script");
-          hs.type = "text/javascript";
-          hs.id = "hs-script-loader";
-          hs.async = true;
-          hs.defer = true;
-          hs.src = hsSrc;
-          document.body.appendChild(hs);
-        },
-        grant: function () {
-          try {
-            localStorage.setItem(this.key, "granted");
-          } catch (e) {}
-          this.status = "granted";
-          this.load();
-        },
-        deny: function () {
-          try {
-            localStorage.setItem(this.key, "denied");
-          } catch (e) {}
-          this.status = "denied";
-        },
-      };
-
-      if (window.__ascendConsent.status === "granted") {
-        // load() appends to document.body, which does not exist yet in <head>.
-        document.addEventListener("DOMContentLoaded", function () {
-          window.__ascendConsent.load();
-        });
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
       }
-    })();</script><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Team — Ascend Group</title><meta name="description" content="The partners and advisors behind Ascend Group: operators and investors who have spent their careers with family and founder-owned companies."><link rel="canonical" href="https://ascend-co.com/team/"><meta property="og:site_name" content="Ascend Group"><meta property="og:type" content="website"><meta property="og:title" content="Your partners at Ascend"><meta property="og:description" content="The partners and advisors behind Ascend Group: operators and investors who have spent their careers with family and founder-owned companies."><meta property="og:url" content="https://ascend-co.com/team/"><meta property="og:image" content="https://ascend-co.com/images/ascend-og-1200x630.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Your partners at Ascend"><meta name="twitter:description" content="The partners and advisors behind Ascend Group: operators and investors who have spent their careers with family and founder-owned companies."><meta name="twitter:image" content="https://ascend-co.com/images/ascend-og-1200x630.png"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/_astro/add-backs.DXCx5OS3.css"></head> <body> <div style="background: #f7f4ef; width: 100%; overflow-x: clip;"> <header class="site-header"> <div class="site-header__inner"> <a href="/" class="site-header__brand"> <svg viewBox="0 0 48 48" aria-hidden="true"> <rect x="0" y="34" width="30" height="8" fill="#f2efe9"></rect> <rect x="9" y="22" width="30" height="8" fill="#d98b7c"></rect> <rect x="18" y="10" width="30" height="8" fill="#f2efe9"></rect> </svg> <span class="site-header__wordmark">Ascend Group</span> </a> <nav class="site-nav" aria-label="Primary"> <a class="site-nav__link" href="/"> About </a><a class="site-nav__link" href="/difference"> Ascend Difference </a><a class="site-nav__link" href="/team" aria-current="page"> Team </a><a class="site-nav__link" href="/perspectives"> Perspectives </a><a class="site-nav__link" href="/faq"> FAQ </a> <a class="site-nav__cta" href="/contact">Contact</a> </nav> </div> </header>  <section class="sec--rule"> <div class="wrap" style="padding: clamp(50px, 7vw, 92px) var(--px) clamp(60px, 7vw, 100px);"> <div style="margin-bottom: clamp(34px, 4vw, 50px);"> <div> <div class="eyebrow mb-26">Team</div> <h1 class="h1">Your partners at Ascend.</h1> </div> <div style="border-top: 2px solid #1b2a3a;"> <div class="team-row"> <div class="team-row__photo"> <img src="/images/team/faizan.jpg" alt="Faizan Kabir" width="760" height="608" loading="lazy" decoding="async"> </div> <div> <div class="team-row__name">Faizan Kabir</div> <div class="team-row__role">Principal, Ascend Group</div>  </div> <div class="team-row__body-cell"> <p class="team-row__body">Faizan has spent his career working with family and founder-owned companies: buying them, sitting down with the owners who stayed on, and helping run the business when it needed a steady hand. Faizan wanted to go back to his entrepreneurial roots and build something of his own.</p> <div class="team-row__prev">Equity Group Investments · Bank of America · Indiana University</div> </div> </div><div class="team-row"> <div class="team-row__photo"> <img src="/images/team/joe.jpg" alt="Joe Hara" width="760" height="608" loading="lazy" decoding="async"> </div> <div> <div class="team-row__name">Joe Hara</div> <div class="team-row__role">Principal, Ascend Group</div>  </div> <div class="team-row__body-cell"> <p class="team-row__body">Joe has spent his career partnering with nearly a dozen management teams through investments or board roles. He’s worked closely with the teams to help drive their growth initiatives and scale their businesses over time, achieving six exits over the last ten years. He wanted the chance to put all his time and effort into one business rather than a share of it across a portfolio.</p> <div class="team-row__prev">Marlin Equity Partners · William Blair · Indiana University</div> </div> </div><div class="team-row"> <div class="team-row__photo"> <img src="/images/team/austin-hall.jpg" alt="Austin Hall" width="760" height="608" loading="lazy" decoding="async"> </div> <div> <div class="team-row__name">Austin Hall</div> <div class="team-row__role">Advisor, Ascend Group</div> <div class="team-row__role2">COO, Perennial Services Group</div> </div> <div class="team-row__body-cell"> <p class="team-row__body">An owner-operator himself. He bought Greenwise, a Chicago-area organic lawn care company, grew it, and sold it to Perennial Services Group, where he is now COO.</p>  </div> </div><div class="team-row"> <div class="team-row__photo"> <img src="/images/team/jamie-overley.jpg" alt="Jamie Overley" width="760" height="608" loading="lazy" decoding="async"> </div> <div> <div class="team-row__name">Jamie Overley</div> <div class="team-row__role">Advisor, Ascend Group</div> <div class="team-row__role2">CEO, East Coast Warehouse &amp; Distribution</div> </div> <div class="team-row__body-cell"> <p class="team-row__body">35+ years running companies as CEO, COO, and CFO. He took East Coast Warehouse from a regional operation to one of the country&#39;s leading logistics providers, quadrupling profit along the way. Before that he spent years turning around struggling companies.</p>  </div> </div><div class="team-row"> <div class="team-row__photo"> <img src="/images/team/kathleen-steele.jpg" alt="Kathleen Steele" width="760" height="608" loading="lazy" decoding="async"> </div> <div> <div class="team-row__name">Kathleen Steele</div> <div class="team-row__role">Advisor, Ascend Group</div> <div class="team-row__role2">Advisor, Equity Group Investments</div> </div> <div class="team-row__body-cell"> <p class="team-row__body">25+ years investing in private and public companies. A former Managing Director at Equity Group Investments, where she led investments and ran the Zell Credit Opportunities Fund. She sits on the board of Terex Corporation (NYSE: TEX).</p>  </div> </div> </div> </div> </div> </section>  <footer class="site-footer"> <div class="site-footer__inner"> <div class="site-footer__brand"> <svg viewBox="0 0 48 48" aria-hidden="true"> <rect x="0" y="34" width="30" height="8" fill="#f2efe9"></rect> <rect x="9" y="22" width="30" height="8" fill="#d98b7c"></rect> <rect x="18" y="10" width="30" height="8" fill="#f2efe9"></rect> </svg> <span class="site-footer__wordmark">Ascend Group</span> </div> <div class="site-footer__meta"> <a href="/privacy">Privacy</a> <span>© 2026 Ascend Group LLC. All rights reserved.</span> </div> </div> </footer> </div> <div class="consent" id="consent-banner" hidden role="region" aria-label="Cookie consent"> <div class="consent__inner"> <p class="consent__text">
-We use Google Analytics and HubSpot cookies to understand how the site is used and to
-      recognize you if you get in touch. Nothing loads until you choose. See our  <a href="/privacy">privacy policy</a>.
-</p> <div class="consent__actions"> <button type="button" class="consent__decline" id="consent-decline">Decline</button> <button type="button" class="consent__accept" id="consent-accept">Accept</button> </div> </div> </div> <script>
-  (function () {
-    var banner = document.getElementById("consent-banner");
-    var consent = window.__ascendConsent;
-    if (!banner || !consent) return;
-
-    // Show only when the visitor has neither accepted nor declined.
-    if (consent.status !== "granted" && consent.status !== "denied") {
-      banner.hidden = false;
-    }
-
-    document.getElementById("consent-accept").addEventListener("click", function () {
-      consent.grant();
-      banner.hidden = true;
-    });
-
-    document.getElementById("consent-decline").addEventListener("click", function () {
-      consent.deny();
-      banner.hidden = true;
-    });
-  })();
-</script> </body></html>
+      gtag("js", new Date());
+      gtag("config", gaId);
+    })();</script><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Team — Ascend Group</title><meta name="description" content="The partners and advisors behind Ascend Group: operators and investors who have spent their careers with family and founder-owned companies."><link rel="canonical" href="https://ascend-co.com/team/"><meta property="og:site_name" content="Ascend Group"><meta property="og:type" content="website"><meta property="og:title" content="Your partners at Ascend"><meta property="og:description" content="The partners and advisors behind Ascend Group: operators and investors who have spent their careers with family and founder-owned companies."><meta property="og:url" content="https://ascend-co.com/team/"><meta property="og:image" content="https://ascend-co.com/images/ascend-og-1200x630.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Your partners at Ascend"><meta name="twitter:description" content="The partners and advisors behind Ascend Group: operators and investors who have spent their careers with family and founder-owned companies."><meta name="twitter:image" content="https://ascend-co.com/images/ascend-og-1200x630.png"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/_astro/add-backs.DsBlOGwR.css"></head> <body> <div style="background: #f7f4ef; width: 100%; overflow-x: clip;"> <header class="site-header"> <div class="site-header__inner"> <a href="/" class="site-header__brand"> <svg viewBox="0 0 48 48" aria-hidden="true"> <rect x="0" y="34" width="30" height="8" fill="#f2efe9"></rect> <rect x="9" y="22" width="30" height="8" fill="#d98b7c"></rect> <rect x="18" y="10" width="30" height="8" fill="#f2efe9"></rect> </svg> <span class="site-header__wordmark">Ascend Group</span> </a> <nav class="site-nav" aria-label="Primary"> <a class="site-nav__link" href="/"> About </a><a class="site-nav__link" href="/difference"> Ascend Difference </a><a class="site-nav__link" href="/team" aria-current="page"> Team </a><a class="site-nav__link" href="/perspectives"> Perspectives </a><a class="site-nav__link" href="/faq"> FAQ </a> <a class="site-nav__cta" href="/contact">Contact</a> </nav> </div> </header>  <section class="sec--rule"> <div class="wrap" style="padding: clamp(50px, 7vw, 92px) var(--px) clamp(60px, 7vw, 100px);"> <div style="margin-bottom: clamp(34px, 4vw, 50px);"> <div> <div class="eyebrow mb-26">Team</div> <h1 class="h1">Your partners at Ascend.</h1> </div> <div style="border-top: 2px solid #1b2a3a;"> <div class="team-row"> <div class="team-row__photo"> <img src="/images/team/faizan.jpg" alt="Faizan Kabir" width="760" height="608" loading="lazy" decoding="async"> </div> <div> <div class="team-row__name">Faizan Kabir</div> <div class="team-row__role">Principal, Ascend Group</div>  </div> <div class="team-row__body-cell"> <p class="team-row__body">Faizan has spent his career working with family and founder-owned companies: buying them, sitting down with the owners who stayed on, and helping run the business when it needed a steady hand. Faizan wanted to go back to his entrepreneurial roots and build something of his own.</p> <div class="team-row__prev">Equity Group Investments · Bank of America · Indiana University</div> </div> </div><div class="team-row"> <div class="team-row__photo"> <img src="/images/team/joe.jpg" alt="Joe Hara" width="760" height="608" loading="lazy" decoding="async"> </div> <div> <div class="team-row__name">Joe Hara</div> <div class="team-row__role">Principal, Ascend Group</div>  </div> <div class="team-row__body-cell"> <p class="team-row__body">Joe has spent his career partnering with nearly a dozen management teams through investments or board roles. He’s worked closely with the teams to help drive their growth initiatives and scale their businesses over time, achieving six exits over the last ten years. He wanted the chance to put all his time and effort into one business rather than a share of it across a portfolio.</p> <div class="team-row__prev">Marlin Equity Partners · William Blair · Indiana University</div> </div> </div><div class="team-row"> <div class="team-row__photo"> <img src="/images/team/austin-hall.jpg" alt="Austin Hall" width="760" height="608" loading="lazy" decoding="async"> </div> <div> <div class="team-row__name">Austin Hall</div> <div class="team-row__role">Advisor, Ascend Group</div> <div class="team-row__role2">COO, Perennial Services Group</div> </div> <div class="team-row__body-cell"> <p class="team-row__body">An owner-operator himself. He bought Greenwise, a Chicago-area organic lawn care company, grew it, and sold it to Perennial Services Group, where he is now COO.</p>  </div> </div><div class="team-row"> <div class="team-row__photo"> <img src="/images/team/jamie-overley.jpg" alt="Jamie Overley" width="760" height="608" loading="lazy" decoding="async"> </div> <div> <div class="team-row__name">Jamie Overley</div> <div class="team-row__role">Advisor, Ascend Group</div> <div class="team-row__role2">CEO, East Coast Warehouse &amp; Distribution</div> </div> <div class="team-row__body-cell"> <p class="team-row__body">35+ years running companies as CEO, COO, and CFO. He took East Coast Warehouse from a regional operation to one of the country&#39;s leading logistics providers, quadrupling profit along the way. Before that he spent years turning around struggling companies.</p>  </div> </div><div class="team-row"> <div class="team-row__photo"> <img src="/images/team/kathleen-steele.jpg" alt="Kathleen Steele" width="760" height="608" loading="lazy" decoding="async"> </div> <div> <div class="team-row__name">Kathleen Steele</div> <div class="team-row__role">Advisor, Ascend Group</div> <div class="team-row__role2">Advisor, Equity Group Investments</div> </div> <div class="team-row__body-cell"> <p class="team-row__body">25+ years investing in private and public companies. A former Managing Director at Equity Group Investments, where she led investments and ran the Zell Credit Opportunities Fund. She sits on the board of Terex Corporation (NYSE: TEX).</p>  </div> </div> </div> </div> </div> </section>  <footer class="site-footer"> <div class="site-footer__inner"> <div class="site-footer__brand"> <svg viewBox="0 0 48 48" aria-hidden="true"> <rect x="0" y="34" width="30" height="8" fill="#f2efe9"></rect> <rect x="9" y="22" width="30" height="8" fill="#d98b7c"></rect> <rect x="18" y="10" width="30" height="8" fill="#f2efe9"></rect> </svg> <span class="site-footer__wordmark">Ascend Group</span> </div> <div class="site-footer__meta"> <a href="/privacy">Privacy</a> <span>© 2026 Ascend Group LLC. All rights reserved.</span> </div> </div> </footer> </div>  <script type="text/javascript" id="hs-script-loader" async defer src="//js-na2.hs-scripts.com/245214210.js"></script> </body> </html>
